@@ -33,7 +33,7 @@ def expense_report_3(report: set) -> int:
 
 if __name__ == "__main__":
     expense_list = []
-    with open('input.txt', 'r') as infile:
+    with open('dayOne/input.txt', 'r') as infile:
         for line in infile:
             value = int(line.replace('\n', ''))
             expense_list.append(value)

@@ -1,2 +1,9 @@
+all:
+	python3 dayOne/dayOne.py
+	python3 dayTwo/dayTwo.py
+	
 dayOne:
-	cd dayOne && python3 dayOne.py
+	python3 dayOne/dayOne.py
+
+dayTwo:
+	python3 dayTwo/dayTwo.py
