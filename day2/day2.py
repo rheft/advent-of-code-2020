@@ -36,7 +36,7 @@ def valid_password_count(passwords: list, validation_function) -> int:
 
 if __name__ == "__main__":
     passwords = []
-    with open('dayTwo/input.txt', 'r') as infile:
+    with open('day2/input.txt', 'r') as infile:
         for line in infile:
             value = line.replace('\n', '')
             processed_value = format_data(value)
