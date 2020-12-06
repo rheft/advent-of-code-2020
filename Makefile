@@ -4,6 +4,7 @@ all:
 	python3 day3/day3.py
 	python3 day4/day4.py
 	python3 day5/day5.py
+	python3 day6/day6.py
 	
 day1:
 	python3 day1/day1.py
@@ -19,3 +20,6 @@ day4:
 
 day5:
 	python3 day5/day5.py
+
+day6:
+	python3 day6/day6.py
