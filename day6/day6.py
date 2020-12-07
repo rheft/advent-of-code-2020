@@ -1,5 +1,4 @@
 QUESTION = '\033[94m'
-ANSWER = '\033[93m'
 ENDC = '\033[0m'
 
 def unique_answers(answer_string: str) -> int:
