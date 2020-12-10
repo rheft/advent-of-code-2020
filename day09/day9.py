@@ -26,7 +26,7 @@ def find_invalid_number(value_list: list, max_range: int) -> int:
     return value
 
 def find_encryption_weakness(value_list: list, target_value:int) -> int:
-    """Given a list of values find the contiguous values that sum to the target_value and return the sum of the max and min o fthos values."""
+    """Given a list of values find the contiguous values that sum to the target_value and return the sum of the max and min of thos values."""
     starting_position = 0
     while starting_position <= len(value_list):
         diff = target_value
@@ -39,8 +39,6 @@ def find_encryption_weakness(value_list: list, target_value:int) -> int:
                 return max(contiguous_set)+min(contiguous_set)
         
         starting_position += 1
-                
-
 
 if __name__ == "__main__":
     MAX_RANGE = 25
